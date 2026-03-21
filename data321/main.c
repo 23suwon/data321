@@ -9,7 +9,6 @@ int main() {
 
     if (scanf("%s %c %s", f1_str, &op, f2_str) != 3) {
         fprintf(stderr, "Error\n");
-        getchar(); getchar();
         return 1;
     }
 
@@ -24,7 +23,6 @@ int main() {
     case '/': result = frac_div(f1, f2); break;
     default:
         fprintf(stderr, "Error: 알 수 없는 연산자 '%c'\n", op);
-        getchar(); getchar();
         return 1;
     }
 
