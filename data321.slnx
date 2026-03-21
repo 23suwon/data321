@@ -5,4 +5,5 @@
   </Configurations>
   <Project Path="data321/data321.vcxproj" Id="11936aad-80cb-4924-9d0d-be92da21fb2e" />
   <Project Path="math/math.vcxproj" Id="55ef935b-2256-4141-bace-71c83d16211a" />
+  <Project Path="rectangle/rectangle.vcxproj" Id="6d14a0b1-31d9-43ef-90df-edaad41f50be" />
 </Solution>
