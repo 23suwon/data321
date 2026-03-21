@@ -8,7 +8,7 @@ int main() {
 
 
     if (scanf("%s %c %s", f1_str, &op, f2_str) != 3) {
-        fprintf(stderr, "Error: 올바른 형식으로 입력하세요. 예) 2/5 + 2/4\n");
+        fprintf(stderr, "Error\n");
         getchar(); getchar();
         return 1;
     }
