@@ -1,4 +1,4 @@
-##GCD의 시간 복잡도를 실행 횟수로 직접 나타내면 
+## GCD의 시간 복잡도를 실행 횟수로 직접 나타내면 
 
 
 int gcd(int a, int b) {
@@ -11,5 +11,7 @@ int gcd(int a, int b) {
     }
     return a;             1회
 }
-##이므로 다 더하면 4n+4 입니다
-##Big-O 표시법으로 나타내면 O(log min(a, b)) 입니다.
+
+
+## 이므로 다 더하면 4n+4 입니다
+## Big-O 표시법으로 나타내면 O(log min(a, b)) 입니다.
