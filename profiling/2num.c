@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "my_math.h"
 
-#define N 91
+#define N 150000
 
 long long fibonacci(int n) {
     if (n <= 0) return 0;
