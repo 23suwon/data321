@@ -1,4 +1,9 @@
 # Big-o 계산식 
-피보나치 수열 함수의 빅 오는 O(n)이고 GCD(a,b)의 빅 오는 O(log min(a,b)) , 전체 프로그램의 빅오는 O(n^2) 이다 <img width="1211" height="598" alt="화면 캡처 2026-03-29 190117" src="https://github.com/user-attachments/assets/52f1c77c-f367-4929-ab24-c6472ca09509" />
-dd
-![](./profiling.png)
+피보나치 수열 함수의 빅 오는 O(n)이고 GCD(a,b)의 빅 오는 O(log min(a,b)) , 전체 프로그램의 빅오는 O(n^2) 이다 
+
+n이 100000일때 프로파일링 시간은 17초 정도였고 110000일때 시간은 21초정도 소모 되었습니다 그러므로 n이 10000 증가할때마다 4초정도 늘어난다고 예측합니다
+그러므로 150000일때는 37초 정도 걸린다고 예상하였고 실제 시간은 33초 걸렸습니다. 
+
+
+# 프로파일링한 그래프 이미지
+<img width="1167" height="377" alt="profiling110000" src="https://github.com/user-attachments/assets/2cc97648-f39d-4d10-9b86-252e19c1559a" />
